@@ -1,0 +1,30 @@
+{
+  "name": "d-mat",
+  "version": "1.0.0",
+  "description": "A full-stack web application for managaging a student's mess",
+  "keywords": [
+    "messmanagement"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github.com/iyg999a/D-MAT"
+  },
+  "license": "ISC",
+  "author": "Abhishek Yadugani",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.93.3",
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.2.3",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
