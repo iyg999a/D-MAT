@@ -67,9 +67,9 @@ document.querySelector('.payBill').addEventListener('click', () =>
             </table>
             <div class="paymentArea roundedgeAll flexColumn flexCenter">
                 <h2>Make a Payment</h2>
-            <a target="_blank" href="https://onlinesbi.sbi.bank.in/sbicollect/" class="mainbtn payNow">Pay Now</a>
+            <a target="_blank" href="https://onlinesbi.sbi.bank.in/sbicollect/payment/listcategory.htm" class="mainbtn payNow">Pay Now</a>
             <h2>Already Paid?</h2>
-            <a target="_blank" href = "views/student/paymentReference.html" class="secbtn Submit ">Submit Payment Reference</a>
+            <a target="_blank" href = "/views/student/paymentReference.html" class="secbtn Submit ">Submit Payment Reference</a>
             </div>
             `
 );

@@ -1,0 +1,86 @@
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #eccdcd;
+    padding: 20px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.mat {
+    font-size: 42px;
+    font-weight: 800;
+    color: #e70606;
+}
+
+.logout-button {
+    background-color: #e70606;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c80505;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.dashboard button {
+    background-color: #d94a4a;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.dashboard button:hover {
+    background-color: #c84343;
+    transform: translateY(-3px);
+}
+
+.dashboard.secondary {
+    margin-top: 25px;
+
+}
+
+.destination {
+    text-align: center;
+    font-size: 12px;
+    color: #444;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}

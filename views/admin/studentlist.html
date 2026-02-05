@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mess Student Records</title>
+
+<link rel="stylesheet" href="/public/css/studentlist.css">
+</head>
+
+<body>
+
+<h2>Hostel Mess Student Records</h2>
+
+<table>
+    <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Branch</th>
+        <th>Phone No</th>
+        <th>Email ID</th>
+        <th>Action</th>
+    </tr>
+
+    <tr>
+        <td>24SS1A0001</td>
+        <td>Arjun Kumar</td>
+        <td>CSE</td>
+        <td>9876543210</td>
+        <td>arjun@college.edu</td>
+        <td><button onclick="openModal()">Edit</button></td>
+    </tr>
+
+    <tr>
+        <td>24SS1A0001</td>
+        <td>Neha Sharma</td>
+        <td>ECE</td>
+        <td>9123456789</td>
+        <td>neha@college.edu</td>
+        <td><button onclick="openModal()">Edit</button></td>
+    </tr>
+
+    <tr>
+        <td>24SS1A0001</td>
+        <td>Rohit Verma</td>
+        <td>ME</td>
+        <td>9012345678</td>
+        <td>rohit@college.edu</td>
+        <td><button onclick="openModal()">Edit</button></td>
+    </tr>
+
+    <tr>
+        <td>24SS1A0001</td>
+        <td>Ananya Das</td>
+        <td>EEE</td>
+        <td>9988776655</td>
+        <td>ananya@college.edu</td>
+        <td><button onclick="openModal()">Edit</button></td>
+    </tr>
+
+    <tr>
+        <td>24SS1A0001</td>
+        <td>Vikas Singh</td>
+        <td>Civil</td>
+        <td>8899776655</td>
+        <td>vikas@college.edu</td>
+        <td><button onclick="openModal()">Edit</button></td>
+    </tr>
+
+    <tr>
+        <td>24SS1A0002</td>
+        <td>Pooja Nair</td>
+        <td>CSE</td>
+        <td>9345678123</td>
+        <td>pooja@college.edu</td>
+        <td><button onclick="openModal()">Edit</button></td>
+    </tr>
+
+    <tr>
+        <td>24SS1A0003</td>
+        <td>Rahul Mehta</td>
+        <td>CSE</td>
+        <td>9090909090</td>
+        <td>rahul@college.edu</td>
+        <td><button onclick="openModal()">Edit</button></td>
+    </tr>
+
+    <tr>
+        <td>24SS1A0004</td>
+        <td>Sneha Patil</td>
+        <td>CSE</td>
+        <td>9988123456</td>
+        <td>sneha@college.edu</td>
+        <td><button onclick="openModal()">Edit</button></td>
+    </tr>
+
+    <tr>
+        <td>24SS1A0005</td>
+        <td>Karthik R</td>
+        <td>ME</td>
+        <td>9876123450</td>
+        <td>karthik@college.edu</td>
+        <td><button onclick="openModal()">Edit</button></td>
+    </tr>
+
+    <tr>
+        <td>24SS1A0006</td>
+        <td>Aditi Rao</td>
+        <td>EEE</td>
+        <td>9011223344</td>
+        <td>aditi@college.edu</td>
+        <td><button onclick="openModal()">Edit</button></td>
+    </tr>
+</table>
+
+<!-- Modal -->
+<div class="modal" id="editModal">
+    <div class="modal-content">
+        <h3>Edit Student (Dummy)</h3>
+
+        <label>Name</label>
+        <input type="text" placeholder="Enter name">
+
+        <label>Branch</label>
+        <input type="text" placeholder="Enter branch">
+
+        <label>Phone No</label>
+        <input type="text" placeholder="Enter phone">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email">
+
+        <div class="modal-actions">
+            <button class="close-btn" onclick="closeModal()">Cancel</button>
+            <button onclick="closeModal()">Save</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openModal() {
+        document.getElementById("editModal").style.display = "flex";
+    }
+
+    function closeModal() {
+        document.getElementById("editModal").style.display = "none";
+    }
+</script>
+
+</body>
+</html>
